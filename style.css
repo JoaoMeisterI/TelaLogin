@@ -1,0 +1,87 @@
+
+    
+
+
+body{
+    background-image: url(fundo7.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover ; 
+    font-family: 'Bebas Neue', cursive;;
+    
+    
+
+ }   
+
+h1{
+    
+    color: rgb(12, 80, 25);
+    font-size: 50px;
+    margin: 0px
+    
+
+}
+
+#fundo{
+    background-color: rgba(0, 0, 0, 0.481);
+    margin-top: 40px;
+    position: absolute;
+    width: 100%;
+    max-width: 400px;
+    min-width: 200px;
+    height: 100%;
+    max-height: 600px;
+    min-height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px; 
+}
+
+#conteudo{
+    background-color: white;
+    width: 100%;
+    max-width: 260px;
+    min-width: 80px;
+    height: 100%;
+    max-height: 490px;
+    min-height: 200px;
+    border: 10px solid;
+    border-radius: 30px;
+}
+
+.text{
+    font-size: 90%;
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color:rgb(12, 80, 25);;
+    color: white;
+}
+
+button:active{
+    background-color: white;
+    color: black;
+}
+
